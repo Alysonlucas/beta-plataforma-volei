@@ -1,0 +1,34 @@
+{
+  "xp": { "video": 15, "treino": 30, "bonus": 15 },
+  "quiz": [
+    { "p": "Você já jogou voleibol?", "o": ["Nunca", "Algumas vezes", "Jogo com frequência"] },
+    { "p": "Sabe o que é rotação?", "o": ["Não", "Mais ou menos", "Sim, consigo explicar"] },
+    { "p": "Como é o seu toque (passe por cima)?", "o": ["Nunca tentei", "Erro bastante", "Faço com segurança"] },
+    { "p": "Conhece as regras básicas?", "o": ["Quase nada", "Algumas", "Todas"] },
+    { "p": "Já sacou por cima (viagem)?", "o": ["Não", "Já tentei", "Sim, com controle"] }
+  ],
+  "modulos": [
+    { "id": "manchete", "titulo": "Manchete básica", "cat": "f", "nivel": 0, "min": 5, "video": "", "texto": "A manchete é o toque feito com os antebraços, usado para receber saques e ataques. Una as mãos, estenda os braços, dobre os joelhos e leve o corpo à frente da bola. O contato acontece na parte plana dos antebraços, sem balançar os braços." },
+    { "id": "toque", "titulo": "Toque básico", "cat": "f", "nivel": 0, "min": 5, "video": "", "texto": "O toque é feito com as pontas dos dedos acima da testa, formando um triângulo com as mãos. Posicione-se embaixo da bola, estenda joelhos e braços ao mesmo tempo e direcione a bola com suavidade." },
+    { "id": "saque-baixo", "titulo": "Saque por baixo", "cat": "f", "nivel": 0, "min": 5, "video": "", "texto": "Segure a bola com uma mão, dê um passo com a perna oposta ao braço do saque e bata na bola abaixo da cintura. Foque em controlar a direção antes de buscar força." },
+    { "id": "posicoes", "titulo": "Posições em quadra", "cat": "g", "nivel": 0, "min": 6, "video": "", "texto": "A quadra tem seis posições. Na rede ficam a 4 (esquerda), a 3 (centro) e a 2 (direita). No fundo ficam a 5 (esquerda), a 6 (centro) e a 1 (direita), de onde se saca." },
+    { "id": "regras", "titulo": "Regras básicas", "cat": "g", "nivel": 0, "min": 8, "video": "", "texto": "Cada equipe tem 6 jogadores e pode dar até 3 toques antes de devolver a bola. O mesmo jogador não toca duas vezes seguidas. O set vai até 25 pontos, com diferença mínima de 2, e vence quem ganhar 3 sets." },
+    { "id": "saque-viagem", "titulo": "Saque viagem", "cat": "f", "nivel": 1, "min": 7, "video": "", "texto": "Lance a bola à frente do corpo, acima da cabeça, e bata com a palma da mão aberta no ponto mais alto. Use o movimento do tronco e do braço e treine a regularidade do lançamento." },
+    { "id": "ataque", "titulo": "Ataque (cortada)", "cat": "f", "nivel": 1, "min": 8, "video": "", "texto": "Faça a aproximação em três passos, salte com os dois pés e arme o braço atrás da cabeça. Bata na bola no ponto mais alto, com o punho firme, e termine com o braço à frente." },
+    { "id": "rot-6x0", "titulo": "Rotação 6x0", "cat": "g", "nivel": 1, "min": 6, "video": "", "texto": "No sistema 6x0 todos os jogadores atacam e defendem em todas as posições. Quando a equipe ganha o saque, todos giram no sentido horário. É o sistema mais simples para quem está começando." },
+    { "id": "rot-4x2", "titulo": "Rotação 4x2", "cat": "g", "nivel": 1, "min": 7, "video": "", "texto": "O 4x2 usa quatro atacantes e dois levantadores, que ficam em lados opostos da rotação. O levantador que está na rede organiza o ataque; o do fundo ajuda na defesa." },
+    { "id": "rot-5x1", "titulo": "Rotação 5x1", "cat": "g", "nivel": 2, "min": 8, "video": "", "texto": "O 5x1 tem um único levantador e cinco atacantes. Com o levantador na rede, a equipe tem dois atacantes na frente; com ele no fundo, são três. Exige comunicação e leitura de jogo." }
+  ],
+  "conquistas": [
+    { "id": "primeiro", "nome": "Primeiro treino concluído", "desc": "Salve 1 treino", "icone": "🥉", "tipo": "treinos", "alvo": 1 },
+    { "id": "passo", "nome": "Primeiro passo", "desc": "Alcance 100 XP", "icone": "⭐", "tipo": "xp", "alvo": 100 },
+    { "id": "mestre", "nome": "Mestre da manchete", "desc": "Treine manchete 3 vezes", "icone": "🏐", "tipo": "modulo", "modulo": "manchete", "alvo": 3 },
+    { "id": "estudioso", "nome": "Estudioso", "desc": "Assista a 5 aulas", "icone": "📚", "tipo": "aulas", "alvo": 5 },
+    { "id": "mira", "nome": "Mira certeira", "desc": "3 treinos com mais de 80% de acerto", "icone": "🎯", "tipo": "melhor", "alvo": 3 },
+    { "id": "fogo", "nome": "3 dias de treino", "desc": "Treine em 3 dias diferentes", "icone": "🔥", "tipo": "dias", "alvo": 3 }
+  ],
+  "forum": [
+    { "id": 1, "autor": "Aluno beta", "topico": "Dúvida sobre a rotação 5x1", "texto": "Quem fica responsável pelo levantamento quando o levantador está no fundo?", "respostas": [{ "autor": "Equipe Guia", "texto": "O levantador continua levantando, mesmo vindo do fundo da quadra. Veja o módulo de Rotação 5x1." }] },
+    { "id": 2, "autor": "Aluno beta", "topico": "Como melhorar o saque?", "texto": "Meu saque vai muito na rede. Alguma dica?", "respostas": [] }
+  ]
+}
